@@ -14,6 +14,8 @@
 		81B6A3DF1DD0331200F3F7D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6A3DE1DD0331200F3F7D6 /* ViewController.swift */; };
 		81B6A3E11DD033A200F3F7D6 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6A3E01DD033A200F3F7D6 /* MainTableViewController.swift */; };
 		81B6A3E31DD04E1900F3F7D6 /* yizi.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 81B6A3E21DD04E1900F3F7D6 /* yizi.DAE */; };
+		81B6A3EB1DD063BF00F3F7D6 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6A3EA1DD063BE00F3F7D6 /* LightViewController.swift */; };
+		81B6A3ED1DD0708E00F3F7D6 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6A3EC1DD0708E00F3F7D6 /* ViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		81B6A3DE1DD0331200F3F7D6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81B6A3E01DD033A200F3F7D6 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = 0/MainTableViewController.swift; sourceTree = "<group>"; };
 		81B6A3E21DD04E1900F3F7D6 /* yizi.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = yizi.DAE; sourceTree = "<group>"; };
+		81B6A3EA1DD063BE00F3F7D6 /* LightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
+		81B6A3EC1DD0708E00F3F7D6 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				81B6A3DB1DD030D100F3F7D6 /* 0 */,
+				81B6A3E41DD0541400F3F7D6 /* 1 */,
+				81B6A3E91DD063A700F3F7D6 /* Light */,
 				81B6A3C91DD0300D00F3F7D6 /* AppDelegate.swift */,
 				81B6A3E01DD033A200F3F7D6 /* MainTableViewController.swift */,
 				81B6A3CD1DD0300D00F3F7D6 /* Main.storyboard */,
@@ -76,6 +82,22 @@
 				81B6A3E21DD04E1900F3F7D6 /* yizi.DAE */,
 			);
 			path = 0;
+			sourceTree = "<group>";
+		};
+		81B6A3E41DD0541400F3F7D6 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				81B6A3EC1DD0708E00F3F7D6 /* ViewController1.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		81B6A3E91DD063A700F3F7D6 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				81B6A3EA1DD063BE00F3F7D6 /* LightViewController.swift */,
+			);
+			path = Light;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B6A3DF1DD0331200F3F7D6 /* ViewController.swift in Sources */,
+				81B6A3ED1DD0708E00F3F7D6 /* ViewController1.swift in Sources */,
 				81B6A3E11DD033A200F3F7D6 /* MainTableViewController.swift in Sources */,
 				81B6A3CA1DD0300D00F3F7D6 /* AppDelegate.swift in Sources */,
+				81B6A3EB1DD063BF00F3F7D6 /* LightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
